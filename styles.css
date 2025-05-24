@@ -1,0 +1,160 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to right, #75385e, #e69fe2);
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1030;
+}
+
+body {
+    margin-top: 100px; /* Altura ajustada según el header */
+}
+
+
+
+body {
+    margin-top: 100px; /* Ajusta este valor según la altura exacta de tu header */
+}
+
+/* Logo */
+header img {
+    height: 60px;
+    border-radius: 50%; /* Forma circular */
+}
+
+/* Título */
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Puedes usar 400 o 700, según las variantes disponibles */
+    font-style: normal;
+  }
+  
+
+/* Menú de navegación */
+nav .nav-link {
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav .nav-link:hover {
+    color: #ffdd57; /* Color al pasar el mouse */
+    text-decoration: underline;
+}
+
+/* Botón destacado */
+header .btn {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color:linear-gradient(to right, #d6ce62, #e69fe2);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #ffc107;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(224, 182, 217, 0.7); /* Cambia el color de fondo al pasar el ratón */
+  transform: scale(0.5); /* Aumenta ligeramente el tamaño */
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(37, 10, 10, 0.2);
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.btn-add-to-cart {
+    background-color: #c259bd; /* Color personalizado (naranja) */
+    border-color: #dde975; /* Borde del mismo color */
+    color: white; /* Color del texto */
+}
+
+.btn-add-to-cart:hover {
+    background-color: #f3e739; /* Color más oscuro al pasar el mouse */
+    border-color: #e7f84c;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;  /* Centrar horizontalmente */
+    gap: 40px;                /* Espacio entre bloques */
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 220px;
+}
+
+.team-member img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;       /* Imagen circular */
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.team-member h4 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.team-member a {
+    color: #8e44ad;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.team-member a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-boton {
+  text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestidos - Fashion Store</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Enlace a Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-primary text-white py-3">
+        <div class="container">
+            <h1 class="text-center">Vestidos</h1>
+        </div>
+    </header>
+
+    <main class="container my-4">
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://ae01.alicdn.com/kf/Sc8f812a198d24e10a2f7de7798ad7b5f8.jpg_640x640q90.jpg" class="card-img-top" alt="Vestido Blanco">
+                    <div class="card-body text-center">
+                       <h5 class="card-title">Vestido Blanco Corto</h5>
+                        <p class="card-text">Q350.00</p>
+                       <button class="btn btn-primary btn-add-to-cart add-to-cart" data-name="Blusa Blanca" data-price="250.00">
+                         Añadir al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://www.ubuy.gt/productimg/?image=aHR0cHM6Ly9pbWFnZXMtY2RuLnVidXkuZ3QvNjYyMzAwYzhiMjg5ZDQ1NDYyNGM2Y2Y1LTIwMjMtdmVzdGlkb3MtZGUtZmllc3RhLWNvcnRvcy1wYXJhLmpwZw.jpg" class="card-img-top" alt="Vestido Rojo">
+                    <div class="card-body text-center">
+                       <h5 class="card-title">Vestido Rojo Elegante</h5>
+                        <p class="card-text">Q280.00</p>
+                        <button class="btn btn-primary btn-add-to-cart add-to-cart" data-name="Blusa Blanca" data-price="250.00">
+                         Añadir al carrito
+                        </button>       
+                    </div>
+                </div>
+            </div>
+
+
+             <!-- Producto 3-->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/I/611qOgZlLiL._AC_UY1000_.jpg" class="card-img-top" alt="Vestido Negro">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Vestido Negro De Fiesta</h5>
+                       <p class="card-text">Q400.00</p>
+                       <button class="btn btn-primary btn-add-to-cart add-to-cart" data-name="Blusa Blanca" data-price="250.00">
+                         Añadir al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="carrito.html" class="btn btn-warning">Ir al Carrito</a>
+         <a href="index.html" class="btn btn-secondary">Regresar al Inicio</a>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2025 Fashion Store</p>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
